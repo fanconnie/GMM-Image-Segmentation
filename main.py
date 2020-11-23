@@ -1,4 +1,4 @@
 import numpy as np
 
 from utils import COLORS, load_image
-from scipy.stats import mul
+from scipy.stats import multivariate
