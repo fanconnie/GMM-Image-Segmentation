@@ -2,4 +2,5 @@ import numpy as np
 
 from utils import COLORS, load_image
 from scipy.stats import multivariate_normal
-from sklearn.cluster import KMea
+from sklearn.cluster import KMeans
+from ma
