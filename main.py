@@ -6,4 +6,5 @@ from sklearn.cluster import KMeans
 from matplotlib import pyplot as plt
 
 
-clas
+class GMM:
+   
