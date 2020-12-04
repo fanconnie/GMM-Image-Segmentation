@@ -7,4 +7,4 @@ from matplotlib import pyplot as plt
 
 
 class GMM:
-    def __init__(self, ncomp
+    def __init__(self, ncomp, initial_mus, 
