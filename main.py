@@ -10,4 +10,4 @@ class GMM:
     def __init__(self, ncomp, initial_mus, initial_covs, initial_priors):
         self.ncomp = ncomp
         self.mus = np.asarray(initial_mus)
-        self.covs = np.asarray(
+        self.covs = np.asarray(initial_co
