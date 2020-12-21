@@ -11,4 +11,4 @@ class GMM:
         self.ncomp = ncomp
         self.mus = np.asarray(initial_mus)
         self.covs = np.asarray(initial_covs)
-        self.priors = np.
+        self.priors = np.asarray(initial
