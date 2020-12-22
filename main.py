@@ -12,3 +12,5 @@ class GMM:
         self.mus = np.asarray(initial_mus)
         self.covs = np.asarray(initial_covs)
         self.priors = np.asarray(initial_priors)
+
+    def infer
