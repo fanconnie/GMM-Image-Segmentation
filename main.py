@@ -13,4 +13,4 @@ class GMM:
         self.covs = np.asarray(initial_covs)
         self.priors = np.asarray(initial_priors)
 
-    def inference(self, datas
+    def inference(self, datas): # E-step
