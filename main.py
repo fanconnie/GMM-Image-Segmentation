@@ -14,4 +14,4 @@ class GMM:
         self.priors = np.asarray(initial_priors)
 
     def inference(self, datas): # E-step
-        
+        unnormalized_prob
