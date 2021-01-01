@@ -16,4 +16,4 @@ class GMM:
     def inference(self, datas): # E-step
         unnormalized_probs = []
         for i in range(self.ncomp):
-            mu, cov, prior =
+            mu, cov, prior = self.mus[i, :
