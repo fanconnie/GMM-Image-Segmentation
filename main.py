@@ -17,4 +17,4 @@ class GMM:
         unnormalized_probs = []
         for i in range(self.ncomp):
             mu, cov, prior = self.mus[i, :], self.covs[i, :, :], self.priors[i]
-            unnormalized_prob = prior *
+            unnormalized_prob = prior * multivari
