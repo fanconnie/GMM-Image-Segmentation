@@ -18,4 +18,5 @@ class GMM:
         for i in range(self.ncomp):
             mu, cov, prior = self.mus[i, :], self.covs[i, :, :], self.priors[i]
             unnormalized_prob = prior * multivariate_normal.pdf(datas, mean=mu, cov=cov)
-            unnormalized_probs.append(np.expand_dims(unnormalized
+            unnormalized_probs.append(np.expand_dims(unnormalized_prob, -1))
+   
