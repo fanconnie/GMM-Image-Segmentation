@@ -20,4 +20,4 @@ class GMM:
             unnormalized_prob = prior * multivariate_normal.pdf(datas, mean=mu, cov=cov)
             unnormalized_probs.append(np.expand_dims(unnormalized_prob, -1))
         preds = np.concatenate(unnormalized_probs, axis=1)
-        log_likelihood = np.sum
+        log_likelihood = np.sum(preds, 
