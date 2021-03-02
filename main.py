@@ -21,4 +21,4 @@ class GMM:
             unnormalized_probs.append(np.expand_dims(unnormalized_prob, -1))
         preds = np.concatenate(unnormalized_probs, axis=1)
         log_likelihood = np.sum(preds, axis=1)
-        log_likelihood = np.sum(np.log(lo
+        log_likelihood = np.sum(np.log(log_like
