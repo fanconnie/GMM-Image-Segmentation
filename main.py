@@ -23,4 +23,4 @@ class GMM:
         log_likelihood = np.sum(preds, axis=1)
         log_likelihood = np.sum(np.log(log_likelihood))
 
-        preds = preds / np.sum(pre
+        preds = preds / np.sum(preds, axis=1, 
