@@ -26,4 +26,4 @@ class GMM:
         preds = preds / np.sum(preds, axis=1, keepdims=True)
         return np.asarray(preds), log_likelihood
 
-    def update(se
+    def update(self, datas, bel
