@@ -27,4 +27,5 @@ class GMM:
         return np.asarray(preds), log_likelihood
 
     def update(self, datas, beliefs): # M-step
-        new_mus, new_covs, new_priors = [], [], 
+        new_mus, new_covs, new_priors = [], [], []
+       
