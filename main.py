@@ -28,4 +28,4 @@ class GMM:
 
     def update(self, datas, beliefs): # M-step
         new_mus, new_covs, new_priors = [], [], []
-        soft_counts
+        soft_counts = np.su
