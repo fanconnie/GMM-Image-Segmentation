@@ -29,4 +29,4 @@ class GMM:
     def update(self, datas, beliefs): # M-step
         new_mus, new_covs, new_priors = [], [], []
         soft_counts = np.sum(beliefs, axis=0)
-        for i in range(
+        for i in range(self.ncomp
