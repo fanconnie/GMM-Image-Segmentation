@@ -30,4 +30,4 @@ class GMM:
         new_mus, new_covs, new_priors = [], [], []
         soft_counts = np.sum(beliefs, axis=0)
         for i in range(self.ncomp):
-            new_mu = n
+            new_mu = np.sum(np.
