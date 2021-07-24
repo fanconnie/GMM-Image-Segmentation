@@ -31,4 +31,5 @@ class GMM:
         soft_counts = np.sum(beliefs, axis=0)
         for i in range(self.ncomp):
             new_mu = np.sum(np.expand_dims(beliefs[:, i], -1) * datas, axis=0)
-            new_mu /= soft_count
+            new_mu /= soft_counts[i]
+  
