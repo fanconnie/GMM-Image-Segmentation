@@ -34,3 +34,4 @@ class GMM:
             new_mu /= soft_counts[i]
             new_mus.append(new_mu)
 
+            
