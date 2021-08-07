@@ -34,4 +34,5 @@ class GMM:
             new_mu /= soft_counts[i]
             new_mus.append(new_mu)
 
-            data_shifted = np.subtract(datas, np.expand_dims(new_mu,
+            data_shifted = np.subtract(datas, np.expand_dims(new_mu, 0))
+     
