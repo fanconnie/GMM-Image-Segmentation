@@ -35,4 +35,4 @@ class GMM:
             new_mus.append(new_mu)
 
             data_shifted = np.subtract(datas, np.expand_dims(new_mu, 0))
-            new_co
+            new_cov = np.matmul(
