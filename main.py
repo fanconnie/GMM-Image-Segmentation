@@ -35,4 +35,5 @@ class GMM:
             new_mus.append(new_mu)
 
             data_shifted = np.subtract(datas, np.expand_dims(new_mu, 0))
-            new_cov = np.matmul(np.transpose(np.multiply(np.expand_dims(beliefs[:, i], -1), data_shifted)), data_shift
+            new_cov = np.matmul(np.transpose(np.multiply(np.expand_dims(beliefs[:, i], -1), data_shifted)), data_shifted)
+     
