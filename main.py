@@ -37,4 +37,4 @@ class GMM:
             data_shifted = np.subtract(datas, np.expand_dims(new_mu, 0))
             new_cov = np.matmul(np.transpose(np.multiply(np.expand_dims(beliefs[:, i], -1), data_shifted)), data_shifted)
             new_cov /= soft_counts[i]
-            new_covs.ap
+            new_covs.append(new_c
