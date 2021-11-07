@@ -39,4 +39,4 @@ class GMM:
             new_cov /= soft_counts[i]
             new_covs.append(new_cov)
 
-            new_priors.append(soft_counts[i] / np
+            new_priors.append(soft_counts[i] / np.sum(soft_
