@@ -43,4 +43,4 @@ class GMM:
 
         self.mus = np.asarray(new_mus)
         self.covs = np.asarray(new_covs)
-        
+        self.priors 
