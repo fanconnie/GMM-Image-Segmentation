@@ -42,4 +42,4 @@ class GMM:
             new_priors.append(soft_counts[i] / np.sum(soft_counts))
 
         self.mus = np.asarray(new_mus)
-        self.covs = np.
+        self.covs = np.asarray(new_c
