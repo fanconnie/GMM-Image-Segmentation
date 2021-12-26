@@ -45,3 +45,4 @@ class GMM:
         self.covs = np.asarray(new_covs)
         self.priors = np.asarray(new_priors)
 
+if __name__ =
