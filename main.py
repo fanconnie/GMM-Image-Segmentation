@@ -46,4 +46,5 @@ class GMM:
         self.priors = np.asarray(new_priors)
 
 if __name__ == '__main__':
-    # 
+    # Load image
+  
