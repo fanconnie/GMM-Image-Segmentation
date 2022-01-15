@@ -47,4 +47,4 @@ class GMM:
 
 if __name__ == '__main__':
     # Load image
-    image_name = raw_input('
+    image_name = raw_input('Input th
