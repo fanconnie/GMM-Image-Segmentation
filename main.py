@@ -48,4 +48,4 @@ class GMM:
 if __name__ == '__main__':
     # Load image
     image_name = raw_input('Input the image name: ')
-    image_path = 'i
+    image_path = 'images/{}.jpg
