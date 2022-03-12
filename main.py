@@ -50,4 +50,4 @@ if __name__ == '__main__':
     image_name = raw_input('Input the image name: ')
     image_path = 'images/{}.jpg'.format(image_name)
     image = load_image(image_path)
-    image_height, image_w
+    image_height, image_width, image_ch
