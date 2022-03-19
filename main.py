@@ -51,3 +51,4 @@ if __name__ == '__main__':
     image_path = 'images/{}.jpg'.format(image_name)
     image = load_image(image_path)
     image_height, image_width, image_channels = image.shape
+    image_pi
