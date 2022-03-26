@@ -51,4 +51,5 @@ if __name__ == '__main__':
     image_path = 'images/{}.jpg'.format(image_name)
     image = load_image(image_path)
     image_height, image_width, image_channels = image.shape
-    image_pixels = np.reshape(image, (-1, image_cha
+    image_pixels = np.reshape(image, (-1, image_channels))
+ 
