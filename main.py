@@ -52,4 +52,4 @@ if __name__ == '__main__':
     image = load_image(image_path)
     image_height, image_width, image_channels = image.shape
     image_pixels = np.reshape(image, (-1, image_channels))
-    _mean = np.mean(image_pixels,
+    _mean = np.mean(image_pixels,axis=0,keepd
