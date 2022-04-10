@@ -53,4 +53,4 @@ if __name__ == '__main__':
     image_height, image_width, image_channels = image.shape
     image_pixels = np.reshape(image, (-1, image_channels))
     _mean = np.mean(image_pixels,axis=0,keepdims=True)
- 
+    _std =
