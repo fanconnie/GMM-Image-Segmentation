@@ -54,4 +54,4 @@ if __name__ == '__main__':
     image_pixels = np.reshape(image, (-1, image_channels))
     _mean = np.mean(image_pixels,axis=0,keepdims=True)
     _std = np.std(image_pixels,axis=0,keepdims=True)
-    image_pix
+    image_pixels = (image_pi
