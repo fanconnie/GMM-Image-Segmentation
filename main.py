@@ -57,4 +57,4 @@ if __name__ == '__main__':
     image_pixels = (image_pixels - _mean) / _std # Normalization
 
     # Input number of classes
-   
+    ncomp = int(
