@@ -56,4 +56,5 @@ if __name__ == '__main__':
     _std = np.std(image_pixels,axis=0,keepdims=True)
     image_pixels = (image_pixels - _mean) / _std # Normalization
 
-    # Input number of c
+    # Input number of classes
+   
