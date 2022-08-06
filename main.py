@@ -59,4 +59,4 @@ if __name__ == '__main__':
     # Input number of classes
     ncomp = int(input('Input number of classes: '))
 
-    # Apply K-Means 
+    # Apply K-Means to find the 
