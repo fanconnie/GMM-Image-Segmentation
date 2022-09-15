@@ -59,4 +59,5 @@ if __name__ == '__main__':
     # Input number of classes
     ncomp = int(input('Input number of classes: '))
 
-    # Apply K-Means to find the initial weights and covariance matrices fo
+    # Apply K-Means to find the initial weights and covariance matrices for GMM
+    kme
