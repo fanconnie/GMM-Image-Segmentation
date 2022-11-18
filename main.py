@@ -62,3 +62,4 @@ if __name__ == '__main__':
     # Apply K-Means to find the initial weights and covariance matrices for GMM
     kmeans = KMeans(n_clusters=ncomp)
     labels = kmeans.fit_predict(image_pixels)
+    i
