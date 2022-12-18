@@ -63,4 +63,4 @@ if __name__ == '__main__':
     kmeans = KMeans(n_clusters=ncomp)
     labels = kmeans.fit_predict(image_pixels)
     initial_mus = kmeans.cluster_centers_
-    initial_priors,
+    initial_priors, initial
