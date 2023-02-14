@@ -65,4 +65,4 @@ if __name__ == '__main__':
     initial_mus = kmeans.cluster_centers_
     initial_priors, initial_covs = [], []
     for i in range(ncomp):
-        datas = 
+        datas = np.array([im
