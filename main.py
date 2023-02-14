@@ -64,4 +64,5 @@ if __name__ == '__main__':
     labels = kmeans.fit_predict(image_pixels)
     initial_mus = kmeans.cluster_centers_
     initial_priors, initial_covs = [], []
-    for i in rang
+    for i in range(ncomp):
+    
