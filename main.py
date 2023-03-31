@@ -67,4 +67,4 @@ if __name__ == '__main__':
     for i in range(ncomp):
         datas = np.array([image_pixels[j, :] for j in range(len(labels)) if labels[j] == i]).T
         initial_covs.append(np.cov(datas))
-        initial_priors
+        initial_priors.append(d
