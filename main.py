@@ -70,4 +70,4 @@ if __name__ == '__main__':
         initial_priors.append(datas.shape[1] / float(len(labels)))
 
     # Initialize a GMM
-    gmm = 
+    gmm = GMM(ncomp, 
