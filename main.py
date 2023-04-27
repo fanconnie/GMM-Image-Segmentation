@@ -69,4 +69,5 @@ if __name__ == '__main__':
         initial_covs.append(np.cov(datas))
         initial_priors.append(datas.shape[1] / float(len(labels)))
 
-    # Initialize a 
+    # Initialize a GMM
+    g
