@@ -72,4 +72,4 @@ if __name__ == '__main__':
     # Initialize a GMM
     gmm = GMM(ncomp, initial_mus, initial_covs, initial_priors)
 
-    # E
+    # EM Al
