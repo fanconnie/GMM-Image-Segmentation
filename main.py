@@ -73,4 +73,4 @@ if __name__ == '__main__':
     gmm = GMM(ncomp, initial_mus, initial_covs, initial_priors)
 
     # EM Algorithm
-    p
+    prev_log_likeli
