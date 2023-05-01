@@ -74,4 +74,4 @@ if __name__ == '__main__':
 
     # EM Algorithm
     prev_log_likelihood = None
-  
+    for i
