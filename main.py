@@ -75,4 +75,4 @@ if __name__ == '__main__':
     # EM Algorithm
     prev_log_likelihood = None
     for i in range(1000):
-        beliefs, log_likelihood = gmm.inference(image
+        beliefs, log_likelihood = gmm.inference(image_pixels) # E-st
