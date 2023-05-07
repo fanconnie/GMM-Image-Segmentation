@@ -77,4 +77,4 @@ if __name__ == '__main__':
     for i in range(1000):
         beliefs, log_likelihood = gmm.inference(image_pixels) # E-step
         gmm.update(image_pixels, beliefs)   # M-step
-        print('Iteration {}: Lo
+        print('Iteration {}: Log Likeli
