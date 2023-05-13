@@ -78,4 +78,4 @@ if __name__ == '__main__':
         beliefs, log_likelihood = gmm.inference(image_pixels) # E-step
         gmm.update(image_pixels, beliefs)   # M-step
         print('Iteration {}: Log Likelihood = {}'.format(i+1, log_likelihood))
-        if prev_log_likelihood != None and abs(log_likelihood - prev_log_likeliho
+        if prev_log_likelihood != None and abs(log_likelihood - prev_log_likelihood) < 1e-10:
