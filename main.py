@@ -82,4 +82,5 @@ if __name__ == '__main__':
             break
         prev_log_likelihood = log_likelihood
 
-    # Show Resu
+    # Show Result
+    beliefs,
