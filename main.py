@@ -83,4 +83,4 @@ if __name__ == '__main__':
         prev_log_likelihood = log_likelihood
 
     # Show Result
-    beliefs, log_lik
+    beliefs, log_likelihood = 
