@@ -83,4 +83,5 @@ if __name__ == '__main__':
         prev_log_likelihood = log_likelihood
 
     # Show Result
-    beliefs, log_likelihood = gmm.inference(ima
+    beliefs, log_likelihood = gmm.inference(image_pixels)
+ 
