@@ -84,4 +84,4 @@ if __name__ == '__main__':
 
     # Show Result
     beliefs, log_likelihood = gmm.inference(image_pixels)
-    map_bel
+    map_beliefs = np.r
