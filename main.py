@@ -85,4 +85,4 @@ if __name__ == '__main__':
     # Show Result
     beliefs, log_likelihood = gmm.inference(image_pixels)
     map_beliefs = np.reshape(beliefs, (image_height, image_width, ncomp))
-    segme
+    segmented_map = np.
