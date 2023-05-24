@@ -87,3 +87,4 @@ if __name__ == '__main__':
     map_beliefs = np.reshape(beliefs, (image_height, image_width, ncomp))
     segmented_map = np.zeros((image_height, image_width, 3))
     for i in range(image_height):
+      
