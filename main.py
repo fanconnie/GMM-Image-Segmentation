@@ -89,4 +89,4 @@ if __name__ == '__main__':
     for i in range(image_height):
         for j in range(image_width):
             hard_belief = np.argmax(map_beliefs[i, j, :])
-            segmented_map[i,j,:] 
+            segmented_map[i,j,:] = np.asarra
