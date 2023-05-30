@@ -89,4 +89,5 @@ if __name__ == '__main__':
     for i in range(image_height):
         for j in range(image_width):
             hard_belief = np.argmax(map_beliefs[i, j, :])
-            segmented_map[i,j,:] = np.asarray(COLORS[hard_belief]) / 25
+            segmented_map[i,j,:] = np.asarray(COLORS[hard_belief]) / 255.0
+    p
