@@ -91,4 +91,4 @@ if __name__ == '__main__':
             hard_belief = np.argmax(map_beliefs[i, j, :])
             segmented_map[i,j,:] = np.asarray(COLORS[hard_belief]) / 255.0
     plt.imshow(segmented_map)
-    plt.show
+    plt.show()
