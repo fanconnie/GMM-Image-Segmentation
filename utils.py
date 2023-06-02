@@ -1,2 +1,4 @@
 import numpy as np
-from PIL impor
+from PIL import Image
+
+COL
