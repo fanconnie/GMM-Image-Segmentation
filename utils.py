@@ -9,4 +9,5 @@ COLORS = [
     (255, 0, 255), # magenta
 ]
 
-def load_image(infilename)
+def load_image(infilename) :
+    im
