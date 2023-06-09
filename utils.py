@@ -10,4 +10,5 @@ COLORS = [
 ]
 
 def load_image(infilename) :
-    img = Image.open( infilenam
+    img = Image.open( infilename )
+   
