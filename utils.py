@@ -12,4 +12,4 @@ COLORS = [
 def load_image(infilename) :
     img = Image.open( infilename )
     img.load()
-    data = np.asarray( i
+    data = np.asarray( img, dtyp
