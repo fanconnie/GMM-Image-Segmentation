@@ -12,4 +12,5 @@ COLORS = [
 def load_image(infilename) :
     img = Image.open( infilename )
     img.load()
-    data = np.asarray( img, dtyp
+    data = np.asarray( img, dtype="int32" )
+  
